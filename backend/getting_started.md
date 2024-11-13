@@ -25,6 +25,8 @@ pip3 install -r services/starter/requirements.txt
 4). Install pre-commit globally using Homebrew
 ```node
 brew install pre-commit
+pre-commit install
+pre-commit run --all-files
 ```
 
 5). See sample env's located a instance/sample.env_example and create new file called at instance/local.env
@@ -45,4 +47,3 @@ python3 -m services.starter.app
 ```
 
 8). Create new micro servicse as needed and follow steps above, replace starter/app with directory of new service
-

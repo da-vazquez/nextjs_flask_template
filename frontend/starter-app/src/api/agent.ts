@@ -13,7 +13,7 @@ const request = {
 
 // Requests to API
 const Requests = {
-  getStatus: (): Promise<any> => 
+  getStatus: (): Promise<any> =>
     request.get(`${baseUrl}/api/v1/status`, {
       headers: {
         "Authorization": "",

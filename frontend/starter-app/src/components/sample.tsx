@@ -39,10 +39,10 @@ const Sample = () => {
         alignItems: "center"
       }}
     >
-      <button 
+      <button
         onClick={getStatus}
         style={{
-          width: 200, 
+          width: 200,
           height: 100,
           border: "none",
           marginBottom: "10px",
@@ -51,7 +51,7 @@ const Sample = () => {
           fontSize: "1.2em",
           cursor: "pointer",
           backgroundColor: loading ? "yellow" : error ? "red" : success ? "limegreen" : "grey"
-        }}  
+        }}
       >Get Server Status</button>
       {clicked && (
         loading ? (
