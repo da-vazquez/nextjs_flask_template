@@ -1,4 +1,4 @@
-### NextJS and Flask Starter Template
+### NextJS and Python (Flask) Starter Template
 
 #### Quickly spin up a NextJS/Flask Application with a MongoDB database using this template. Pre-configured with all the libraries you need to get started.
 
