@@ -40,10 +40,10 @@ export ENV=LOCAL
 > Note: You must start virtual environment and set current environment (local/prod in terminal)
         each time you close out of terminal session
 
-7). Start flask app as module from root directory (/backend)
+7). Start flask app from root directory (/backend)
 
 ```python
-python3 -m services.starter.app
+python3 app.py
 ```
 
-8). Create new micro servicse as needed and follow steps above, replace starter/app with directory of new service
+8). Create new micro services as needed and follow steps above
